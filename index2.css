@@ -1,0 +1,126 @@
+@charset "utf-8";
+a{
+	text-decoration: none;color: #000000;}
+.banner{
+	height: 475px;
+}
+.Bcon {
+	position: relative;
+	height: 475px;
+}
+.Bcon img{
+	position: absolute;
+	width: 1352px;
+	height: 475px;
+	top: 0;
+	left: 50%; /* 先往右边移动百分之50的距离*/
+	margin-left: -676px;/* 再往回拉图片一半的距离以实现居中 */
+}
+/* 第一层内容 */
+.C_one{
+	height: 530PX;
+	/* background: yellow; */
+}
+.C_one .one_left{
+	height: 240PX;
+	width: 540px;
+/* 	background: url(photo/t1.png) no-repeat; */
+	padding: 138px 117px 152px 90px;
+	float: left;
+	
+}
+
+.one_left h3{
+	font-size: 20px;
+	color: #9b9b9b;
+	margin: 28px 0px 28px 0;
+}
+.one_left p{
+	font-size: 16px;
+	color: #9b9b9b;
+	
+}
+.C_one .one_right{
+	height: 530px;
+	width: 335px;
+	/* background: gold; */
+	float: right;	
+}
+
+.one_right img{
+	margin-top: 85px;
+}
+
+/* 第一层内容结束 */
+
+/* 第二层内容开始 */
+.C_Two{
+	
+	height: 518PX;
+}
+.C_Two .two_left{
+	width: 404px;
+	height: 382px;
+	float: left;
+	padding: 60px 70px 76px 66px;
+	background: #e7e7e7;
+}
+.C_Two .two_rignt{
+	height: 518px;
+	width: 542px;
+	background: #e7e7e7;
+	float: right;
+}
+.two_rignt img{
+	margin-top: 20px;
+}
+.two_rignt h3{
+	font-size: 20px;
+	color: #9b9b9b;
+	margin: 28px 0px 28px 0;
+}
+.two_rignt p{
+	font-size: 16px;
+	color: #9b9b9b;
+	
+}
+
+/* 第二层内容结束 */
+
+/* 第三层内容开始 */
+.C_Three {
+	height: 508px;
+	
+}
+.C_Three .tre_left{
+	width: 481px;
+	height: 225px;
+	padding: 143px 0px 140px 36px;
+	/* background: yellow; */
+	float: left;
+	
+}
+
+.C_Three .tre_right{
+	width: 565px;
+	height: 452px;
+	padding-top: 56px;
+/* 	background: skyblue; */
+	float: left;
+	
+}
+
+
+
+.tre_left h3{
+	font-size: 20px;
+	color: #9b9b9b;
+	margin: 0px 0px 28px 0;
+}
+.tre_left p{
+	font-size: 16px;
+	color: #9b9b9b;
+	
+}
+/* 内容样式结束 */
+

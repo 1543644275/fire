@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* 声明编码集*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a,
+u {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	/* 去掉img下方的间距 */
+	border: 0;
+}
+
+input {
+	outline: none;
+	/* 去掉选中时的蓝色边框*/
+}
+
+li {
+	list-style: none;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	font-size: 16px;
+}
+b,
+strong {
+	font-weight: normal;
+}
+
+.clearFixed::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+.fire-data-1{
+	display: block;float:left;padding-left: 300px;padding-top: 100px;padding-right: 50px;
+}
+.fire-data-1 p{
+	padding-top:20px; padding-left:50px;
+}
+.fire-data-2{
+	display: block;float:left;margin:100px 20px 20px 20px;
+}
+.fire-data-2 p{
+	padding-top:50px; padding-left:100px;
+}
